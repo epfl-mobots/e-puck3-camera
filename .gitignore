@@ -1,4 +1,7 @@
-*.PrjPcbStructure
-History/*
-Project Logs*
-*Preview
+**/History/
+**/__Previews/
+**/Project Logs for*/
+*.PrjPCBStructure
+*.htm*
+*.Log
+*.DRC

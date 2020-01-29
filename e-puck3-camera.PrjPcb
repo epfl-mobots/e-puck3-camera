@@ -39,23 +39,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=e-puck3-camera.PCBDwf
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=e-puck3-camera.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,6 +54,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CRPVHNPD
+
+[Document2]
+DocumentPath=e-puck3-camera.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Document3]
 DocumentPath=e-puck3-camera-4L.PcbDoc
@@ -90,23 +90,6 @@ GenerateClassCluster=0
 DocumentUniqueId=XEETHCOT
 
 [Document4]
-DocumentPath=e-puck3-camera-4L.PcbLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=PVXGIQHG
-
-[Document5]
 DocumentPath=Job1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -123,8 +106,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
-DocumentPath=e-puck3-camera.BomDoc
+[Document5]
+DocumentPath=e-puck3-camera-4L_temp2l.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -138,35 +121,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document7]
-DocumentPath=PCBWay\RevA\CAMtastic1.Cam
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DECXLXSB
 
 [GeneratedDocument1]
-DocumentPath=PCBWay\RevA\BOM-AR0144.csv
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for TestMySVN\Design Rule Check - e-puck3-camera-4L.html
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for TestMySVN\Design Rule Check - e-puck3-camera.html
+DocumentPath=Project Outputs for TestMySVN\Design Rule Check - e-puck3-camera-4L_temp2l.html
 DItemRevisionGUID=
 
 [SearchPath1]
@@ -175,6 +133,14 @@ IncludeSubFolders=1
 
 [SearchPath2]
 Path=E:\Projets\DataBase\*.*
+IncludeSubFolders=1
+
+[SearchPath3]
+Path=..\..\..\lsro1altium\PcbLib\*.*
+IncludeSubFolders=1
+
+[SearchPath4]
+Path=..\..\..\..\lsro1altium\SchLib\*.*
 IncludeSubFolders=1
 
 [Parameter1]
@@ -205,7 +171,7 @@ OutputDir=Project Outputs for TestMySVN
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=EDIF
 OutputName1=EDIF for PCB
@@ -311,7 +277,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=M477fdw ME.B3.30
+TargetPrinter=SecurePrintStaffColor
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -391,7 +357,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -413,7 +379,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -485,7 +451,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -522,7 +488,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -702,7 +668,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -746,7 +712,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=ExportSTEP
 OutputName1=Export STEP
@@ -807,7 +773,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Adobe PDF
+TargetPrinter=Print to PDF (Mac Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1345,39 +1311,39 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=LSRO1Altium.DbLib/Capacitors
-ComponentDesignItemID0=10uF[[/\]]2012[[/\]]1
-ComponentSymbolReference0=CAP-NP
-ComponentUpdate0=0
+ComponentLibraryIdentifier0=Dev_Card_Lib.SchLib
+ComponentDesignItemID0=24-5805-024-000-829
+ComponentSymbolReference0=24-5805-024-000-829
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 ComponentLibIdentifierKind1=Library Name And Type
 ComponentLibraryIdentifier1=LSRO1Altium.DbLib/Capacitors
-ComponentDesignItemID1=1uF[[/\]]1005[[/\]]1
+ComponentDesignItemID1=TBD Capacitor[[/\]]0201[[/\]]1
 ComponentSymbolReference1=CAP-NP
-ComponentUpdate1=0
+ComponentUpdate1=1
 ComponentIsDeviceSheet1=0
 ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=LSRO1Altium.DbLib/Capacitors
-ComponentDesignItemID2=2.2uF[[/\]]1608[[/\]]1
-ComponentSymbolReference2=CAP-NP
-ComponentUpdate2=0
+ComponentLibraryIdentifier2=LSRO1Altium.DbLib/Connectors
+ComponentDesignItemID2=HIROSE_BM23FR0.6-30DP-0.35V[[/\]]1
+ComponentSymbolReference2=Con2X15B-2P
+ComponentUpdate2=1
 ComponentIsDeviceSheet2=0
 ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=LSRO1Altium.DbLib/Capacitors
-ComponentDesignItemID3=22uF[[/\]]3216[[/\]]1
-ComponentSymbolReference3=CAP-NP
-ComponentUpdate3=0
+ComponentLibraryIdentifier3=LSRO1Altium.DbLib/ICs
+ComponentDesignItemID3=AR0144CS[[/\]]1
+ComponentSymbolReference3=AR0144CS
+ComponentUpdate3=1
 ComponentIsDeviceSheet3=0
 ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=LSRO1Altium.DbLib/OptoComponents
-ComponentDesignItemID4=F50380[[/\]]1
-ComponentSymbolReference4=LED-SEOUL_F50380
-ComponentUpdate4=0
+ComponentLibraryIdentifier4=Perso_Misc.SchLib
+ComponentDesignItemID4=SC2
+ComponentSymbolReference4=SC2
+ComponentUpdate4=1
 ComponentIsDeviceSheet4=0
 ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=LSRO1Altium.DbLib/Transistors
-ComponentDesignItemID5=IRLML2402[[/\]]1
-ComponentSymbolReference5=TRANS-MOSFET-1N-GSD
+ComponentLibraryIdentifier5=Schlib.SchLib
+ComponentDesignItemID5=MIC5504-1.2YMT-TR
+ComponentSymbolReference5=MIC5504-1.2YMT-TR
 ComponentUpdate5=1
 ComponentIsDeviceSheet5=0
 
